@@ -91,6 +91,24 @@
           xsi:type="archimate:RealizationRelationship"
           href="RealizationRelationship_f0b4ce2b-1859-4635-ad00-f5832d10af42.xml#f0b4ce2b-1859-4635-ad00-f5832d10af42"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="5acaa531-bc9d-49c6-9c89-091f620afb92"
+        source="493e297d-1116-4dbe-838c-f18a0fe50a70"
+        target="467d0fb0-1060-454a-9a2b-b57a9ef940d7">
+      <archimateRelationship
+          xsi:type="archimate:ServingRelationship"
+          href="ServingRelationship_c6a85bf6-faf8-4353-b927-824816302a0e.xml#c6a85bf6-faf8-4353-b927-824816302a0e"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="7cd8f9d1-0424-4009-b161-7d95153ebaa0"
+        source="493e297d-1116-4dbe-838c-f18a0fe50a70"
+        target="c7419e69-e8e3-45c7-9ed9-962540aa9e88">
+      <archimateRelationship
+          xsi:type="archimate:ServingRelationship"
+          href="ServingRelationship_bac22b0d-ebb0-456d-b7ac-d0c98dbb3fd5.xml#bac22b0d-ebb0-456d-b7ac-d0c98dbb3fd5"/>
+    </sourceConnections>
     <bounds
         x="912"
         y="732"
@@ -99,5 +117,31 @@
     <archimateElement
         xsi:type="archimate:ApplicationService"
         href="ApplicationService_e5bbc515-2e1f-45c0-a143-8d5067b9d617.xml#e5bbc515-2e1f-45c0-a143-8d5067b9d617"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="467d0fb0-1060-454a-9a2b-b57a9ef940d7"
+      targetConnections="5acaa531-bc9d-49c6-9c89-091f620afb92">
+    <bounds
+        x="1195"
+        y="745"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationInterface"
+        href="ApplicationInterface_18f36fc6-0c65-472d-a9db-46ba2eec4edf.xml#18f36fc6-0c65-472d-a9db-46ba2eec4edf"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="c7419e69-e8e3-45c7-9ed9-962540aa9e88"
+      targetConnections="7cd8f9d1-0424-4009-b161-7d95153ebaa0">
+    <bounds
+        x="1260"
+        y="854"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationInterface"
+        href="ApplicationInterface_ab1923e8-7f98-426a-a0b5-c08dc1a8a931.xml#ab1923e8-7f98-426a-a0b5-c08dc1a8a931"/>
   </children>
 </archimate:ArchimateDiagramModel>
